@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="number" id="number" onkeyup="getVal()" placeholder="0" autocomplete="off"></p>
+        </div>
+        <div class="results">
+            <div class="conversion-results">
+                <p class="title">Length (Meter/Feet)</p>
+                <p class="calculate-results" id="calculate-Ln">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+            </div>
+            
+            <div class="conversion-results">
+                <p class="title">Volume (Liters/Gallons)</p>
+                <p class="calculate-results" id="calculate-Vo">0 litters = 0.000 gallons | 0 gallons = 0.000 litters</p>
+            </div>
+            
+            <div class="conversion-results">
+                <p class="title">Mass (Kilograms/Pounds)</p>
+                <p class="calculate-results" id="calculate-Ms">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+
