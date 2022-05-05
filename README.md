@@ -11,5 +11,6 @@ Podgląd działania aplikacji:
 
 
 
-https://user-images.githubusercontent.com/22822454/166898457-90865878-1c02-4aad-a31f-ecb9db1b2910.mp4
+https://user-images.githubusercontent.com/22822454/166900598-65be879d-daa5-40ef-be94-29c56662f579.mp4
+
 
